@@ -1,0 +1,37 @@
+{
+  "name": "terhubung-api",
+  "version": "1.0.0",
+  "description": "Terhubung Applications",
+  "main": "index.js",
+  "start": "nodemon index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/terhubungid/terhubung-api.git"
+  },
+  "keywords": [
+    "restful",
+    "terhubung",
+    "api",
+    "backend",
+    "nodejs",
+    "express"
+  ],
+  "author": "Terhubung Inovasi Indonesia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/terhubungid/terhubung-api/issues"
+  },
+  "homepage": "https://gitlab.com/terhubungid/terhubung-api#README",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.2.7",
+    "morgan": "^1.9.0"
+  }
+}
